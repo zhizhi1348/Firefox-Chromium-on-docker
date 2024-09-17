@@ -9,6 +9,8 @@ bash <(curl -fsSL https://raw.githubusercontent.com/zhizhi1348/Firefox-Chromium-
 ```
 **choose one of the options and let the script do its job , notice that you should installed docker if you may not install it before press enter on the script so it will handle docker installation**
 
+![Sample](https://github.com/zhizhi1348/Firefox-Chromium-on-docker/blob/main/Sample.png)
+
 ## Open Broswer
 **Now your browser is ready**
 - Open Chromium:
