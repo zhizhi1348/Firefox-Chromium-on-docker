@@ -74,6 +74,9 @@ install_firefox() {
             -e TZ=Etc/UTC \
             -e CUSTOM_USER=$USERNAME \
             -e PASSWORD=$PASSWORD \
+            -e DISABLE_IPV6=true \
+            -e HTTPS_METHOD=redirect \
+            -e HTTP_ONLY=true \
             -p 4000:3000 \
             -p 4001:3001 \
             -v /root/firefox/config:/config \
